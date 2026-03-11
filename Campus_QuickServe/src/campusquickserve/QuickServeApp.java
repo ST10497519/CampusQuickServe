@@ -16,7 +16,7 @@ public class QuickServeApp {
         // Create Order object
         Order order = new Order(customerName, studentNumber, itemOrdered, quantity, pricePerItem);
         
-        // Display formatted receipt in console
+        // Display formatted receipt
         System.out.println("------ CAMPUS QUICKSERVE ------");
         System.out.println("Customer: " + order.getCustomerName());
         System.out.println("Student Number: " + order.getStudentNumber());
